@@ -1,1 +1,1 @@
-web: gunicorn recipies.config.wsgi
+web: cd recipies && gunicorn recipies.wsgi
